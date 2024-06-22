@@ -61,11 +61,13 @@ boxes.forEach((box)=>{
             if(turnO)
                 {
                     box.innerText="O";
+                    box.style.color="green";
                     turnO=false;
 
                 }
                 else{
                     box.innerText="X";
+                    box.style.color="violet";
                     turnO=true;
                 }
                 box.disabled=true;
